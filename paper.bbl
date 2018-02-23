@@ -1,0 +1,88 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Anderson}{Anderson}{1993}]%
+        {anderson1993cryptosystems}
+\bibfield{author}{\bibinfo{person}{Ross Anderson}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Why cryptosystems fail}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 1st ACM Conference on Computer
+  and Communications Security}}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York}, \bibinfo{pages}{215--227}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bellare and Rogaway}{Bellare and
+  Rogaway}{1993}]%
+        {bellare1993random}
+\bibfield{author}{\bibinfo{person}{Mihir Bellare} {and}
+  \bibinfo{person}{Phillip Rogaway}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Random oracles are practical: A paradigm for
+  designing efficient protocols}. In \bibinfo{booktitle}{{\em Proceedings of
+  the 1st ACM Conference on Computer and Communications Security}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York},
+  \bibinfo{pages}{62--73}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Blaze}{Blaze}{1993}]%
+        {blaze1993cryptographic}
+\bibfield{author}{\bibinfo{person}{Matt Blaze}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{A cryptographic file system for UNIX}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 1st ACM Conference on Computer
+  and Communications Security}}. \bibinfo{publisher}{ACM},
+  \bibinfo{address}{New York}, \bibinfo{pages}{9--16}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Medvinsky and Neuman}{Medvinsky and
+  Neuman}{1993}]%
+        {medvinsky1993netcash}
+\bibfield{author}{\bibinfo{person}{Gennady Medvinsky} {and}
+  \bibinfo{person}{Clifford Neuman}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{NetCash: A design for practical electronic currency
+  on the Internet}. In \bibinfo{booktitle}{{\em Proceedings of the 1st ACM
+  Conference on Computer and Communications Security}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York},
+  \bibinfo{pages}{102--106}.
+\newblock
+
+
+\end{thebibliography}
